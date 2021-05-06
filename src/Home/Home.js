@@ -6,8 +6,8 @@ const Home = () => {
     const category = useContext(CategoryContext);
     return (
         <div>
-            <h4>This is A home component Counting Status : {category}</h4>
-            <Categories />
+            <h1>This is  Home : {category}</h1>
+            <Categories></Categories>
         </div>
     );
 };
